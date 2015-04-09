@@ -42,15 +42,15 @@
 - [ ] Question 41
 - [ ] Question 42
 - [ ] Question 43
-- [ ] Question 44
-- [ ] Question 45
+- [x] Question 44 : Check my laplacian pyramid*
+- [x] Question 45
 - [ ] Question 46
-- [ ] Question 47
-- [ ] Question 48
-- [ ] Question 49
-- [ ] Question 50
-- [ ] Question 51
-- [ ] Question 52
+- [x] Question 47
+- [x] Question 48
+- [x] Question 49
+- [x] Question 50
+- [x] Question 51
+- [x] Question 52
 - [ ] Question 53
 - [ ] Question 54
 - [ ] Question 55
