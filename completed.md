@@ -2,8 +2,8 @@
 - [ ] Question 1
 - [ ] Question 2
 - [ ] Question 3
-- [x] Question 4
-- [x] Question 5
+- [ ] Question 4
+- [ ] Question 5
 - [ ] Question 6
 - [ ] Question 7
 - [ ] Question 8
@@ -11,7 +11,7 @@
 - [ ] Question 10
 - [ ] Question 11
 - [ ] Question 12
-- [ ] Question 13
+- [x] Question 13
 - [ ] Question 14
 - [ ] Question 15
 - [ ] Question 16
@@ -22,12 +22,12 @@
 - [ ] Question 21
 - [ ] Question 22
 - [ ] Question 23
-- [ ] Question 24
-- [ ] Question 25
-- [ ] Question 26
-- [ ] Question 27
-- [ ] Question 28
-- [ ] Question 29
+- [x] Question 24
+- [x] Question 25
+- [x] Question 26
+- [x] Question 27
+- [x] Question 28
+- [x] Question 29
 - [ ] Question 30
 - [ ] Question 31
 - [ ] Question 32
