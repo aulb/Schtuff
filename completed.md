@@ -28,9 +28,9 @@
 - [x] Question 27
 - [x] Question 28
 - [x] Question 29
-- [ ] Question 30
-- [ ] Question 31
-- [ ] Question 32
+- [x] Question 30
+- [x] Question 31
+- [x] Question 32
 - [ ] Question 33
 - [ ] Question 34
 - [ ] Question 35
@@ -61,12 +61,12 @@
 - [ ] Question 60
 - [ ] Question 61
 - [ ] Question 62
-- [ ] Question 63
+- [x] Question 63
 - [ ] Question 64
-- [ ] Question 65
+- [x] Question 65
 - [ ] Question 66
-- [ ] Question 67
+- [x] Question 67
 - [ ] Question 68
 - [ ] Question 69
-- [ ] Question 70
-- [ ] Question 71
+- [x] Question 70
+- [x] Question 71
