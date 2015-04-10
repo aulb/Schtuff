@@ -3,24 +3,26 @@ Don't forget to flatten.
 Watch PCA again.
 http://www.cs.dartmouth.edu/~cs77/slides/04_transforms.pdf
 
+Need to do midterm question for gradient again! Make sure you know them
+
 ### Pre midterm
-- [ ] Question 1
-- [ ] Question 2
-- [ ] Question 3
-- [ ] Question 4
-- [ ] Question 5
-- [ ] Question 6
-- [ ] Question 7
-- [ ] Question 8
-- [ ] Question 9
-- [ ] Question 10
-- [ ] Question 11
-- [ ] Question 12
+- [x] Question 1 - Read code
+- [x] Question 2 - Normalize for contrast, cause white background (trying to find crest)
+- [x] Question 3
+- [x] Question 4 - White patches are evil, dot or SSD with 255 is evil
+- [x] Question 5 
+- [x] Question 6 
+- [x] Question 7
+- [x] Question 8 - Look one more time
+- [x] Question 9
+- [x] Question 10
+- [x] Question 11
+- [x] Question 12
 - [x] Question 13
-- [ ] Question 14
-- [ ] Question 15
-- [ ] Question 16
-- [ ] Question 17
+- [x] Question 14
+- [x] Question 15
+- [x] Question 16
+- [x] Question 17
 - [ ] Question 18
 - [ ] Question 19
 - [ ] Question 20
