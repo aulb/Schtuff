@@ -1,4 +1,5 @@
 # Checklist
+### Pre midterm
 - [ ] Question 1
 - [ ] Question 2
 - [ ] Question 3
@@ -40,33 +41,35 @@
 - [ ] Question 39
 - [ ] Question 40
 - [ ] Question 41
+
+### Post midterm
 - [ ] Question 42
-- [ ] Question 43
+- [x] Question 43 - When the range is not possible
 - [x] Question 44 : Check my laplacian pyramid*
 - [x] Question 45
-- [ ] Question 46
+- [ ] Question 46 - I need to read myself
 - [x] Question 47
 - [x] Question 48
 - [x] Question 49
 - [x] Question 50
 - [x] Question 51
 - [x] Question 52
-- [ ] Question 53
-- [ ] Question 54
-- [ ] Question 55
-- [ ] Question 56
-- [ ] Question 57
-- [ ] Question 58
-- [ ] Question 59
-- [ ] Question 60
-- [ ] Question 61
-- [ ] Question 62
+- [x] Question 53
+- [x] Question 54
+- [x] Question 55 - We don't agree on what to do first
+- [ ] Question 56 - READ SLIDE NOT DONE
+- [x] Question 57 - Around the origin, around its center (-cx,-cy)
+- [x] Question 58 - Code for rotating in the thing
+- [x] Question 59
+- [x] Question 60
+- [x] Question 61 - Read the docs
+- [x] Question 62
 - [x] Question 63
-- [ ] Question 64
+- [x] Question 64
 - [x] Question 65
-- [ ] Question 66
+- [x] Question 66 - Why sigma, why its negative
 - [x] Question 67
-- [ ] Question 68
-- [ ] Question 69
-- [x] Question 70
-- [x] Question 71
+- [x] Question 68
+- [x] Question 69
+- [x] Question 70 - Far sighted, near sighted (low)
+- [x] Question 71 - Completely done
