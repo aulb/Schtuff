@@ -1,4 +1,8 @@
 # Checklist
+Don't forget to flatten.
+Watch PCA again.
+http://www.cs.dartmouth.edu/~cs77/slides/04_transforms.pdf
+
 ### Pre midterm
 - [ ] Question 1
 - [ ] Question 2
@@ -34,8 +38,8 @@
 - [x] Question 32
 - [ ] Question 33
 - [ ] Question 34
-- [ ] Question 35
-- [ ] Question 36
+- [ ] Question 35 - Read the code from google docs
+- [ ] Question 36 - Read the code from google docs
 - [ ] Question 37
 - [ ] Question 38
 - [ ] Question 39
