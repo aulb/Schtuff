@@ -1,4 +1,4 @@
-# Last Modified: 
+# Last Modified: ??
 # Given 4 numbers, print out the latest time that is arrangable!
 # Example: [1,2,3,4] -> '23:41'
 def minutes(A):
