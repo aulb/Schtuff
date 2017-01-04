@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-
-#https://interactivepython.org/runestone/static/pythonds/BasicDS/ImplementingaStackinPython.html
+# Reverse Polish Notation
+# https://interactivepython.org/runestone/static/pythonds/BasicDS/ImplementingaStackinPython.html
 class Stack:
      def __init__(self):
          self.items = []
