@@ -4,6 +4,7 @@ From leetcode.com/problems/two-sum
 Exactly one solution.
 
 Trading space for speed, hash table is built for this.
+7:02 - 7:30
 """
 
 def two_sum(nums, target):
