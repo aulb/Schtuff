@@ -44,18 +44,20 @@ def romanToInt(s):
         roman.append(ss)
         check = ''.join(roman[::-1])
         
-        if check in rules:
-            num = rules[check]
-        else:
+        print check
+        if check not in rules:
             # New number
+            num = rules[check[1:]]
             result = result + num
             roman = [roman[-1]]
-    result = result + num
-    return num
+    # One last time, assuming validity
+    # Because it could be 'M' or 'DC', can end in multiple letters
+    check = ''.join(roman[::-1])
+    return result + rules[check]
 
 
 if __name__ == '__main__':
-    s = 'DCXXI'
+    s = "MDLXX"
     roman = []
     s = s[::-1]
     result = 0
@@ -63,6 +65,7 @@ if __name__ == '__main__':
     for ss in s:
         roman.append(ss)
         check = ''.join(roman[::-1])
+        print check
         
         if check in rules:
             num = rules[check]
@@ -71,3 +74,4 @@ if __name__ == '__main__':
             result = result + num
             roman = [roman[-1]]
     result = result + num
+    print romanToInt(s[::-1])
