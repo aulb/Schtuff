@@ -1,77 +1,56 @@
-rules = {
-    'I': 1,
-    'II': 2,
-    'III': 3,
-    'IV': 4,
-    'V': 5,
-    'VI': 6,
-    'VII': 7,
-    'VIII': 8,
-    'IX': 9,
-    'X': 10,
-    'XX': 20,
-    'XXX': 30,
-    'XL': 40,
-    'L': 50,
-    'LX': 60,
-    'LXX': 70,
-    'LXXX': 80,
-    'XC': 90,
-    'C': 100,
-    'CC': 200,
-    'CCC': 300,
-    'CD': 400,
-    'D': 500,
-    'DC': 600,
-    'DCC': 700,
-    'DCCC': 800,
-    'CM': 900,
-    'M': 1000,
-    'MM': 2000,
-    'MMM': 3000
-}
-
-def romanToInt(s):
-    """
-    :type s: str
-    :rtype: int
-    """
-    roman = []
-    s = s[::-1]
-    result = 0
-    num = 0
-    for ss in s:
-        roman.append(ss)
-        check = ''.join(roman[::-1])
+class Solution(object):
+    def __init__(self):
+        self.rules = {
+        	1: 'I',
+        	2: 'II',
+        	3: 'III',
+        	4: 'IV',
+        	5: 'V',
+        	6: 'VI',
+        	7: 'VII',
+        	8: 'VIII',
+        	9: 'IX',
+        	10: 'X',
+        	20: 'XX',
+        	30: 'XXX',
+        	40: 'XL',
+        	50: 'L',
+        	60: 'LX',
+        	70: 'LXX',
+        	80: 'LXXX',
+        	90: 'XC',
+        	100: 'C',
+        	200: 'CC',
+        	300: 'CCC',
+        	400: 'CD',
+        	500: 'D',
+        	600: 'DC',
+        	700: 'DCC',
+        	800: 'DCCC',
+        	900: 'CM',
+        	1000: 'M',
+        	2000: 'MM',
+        	3000: 'MMM'
+        }
+    
+    def intToRoman(self, num):
+        """
+        :type num: int
+        :rtype: str
+        """
+        if num > 3999:
+        	return None
+    
+        roman = []
+        counter = 1
+        while num is not 0:
+        	x = (num % 10) * counter
+        	num = num / 10
+        	if x is not 0:
+        		roman.append(self.rules[x])
+        		last = x
+    
+        	counter = counter * 10
+    
+        return ''.join(roman[::-1])
         
-        print check
-        if check not in rules:
-            # New number
-            num = rules[check[1:]]
-            result = result + num
-            roman = [roman[-1]]
-    # One last time, assuming validity
-    # Because it could be 'M' or 'DC', can end in multiple letters
-    check = ''.join(roman[::-1])
-    return result + rules[check]
-
-
-if __name__ == '__main__':
-    s = "MDLXX"
-    roman = []
-    s = s[::-1]
-    result = 0
-    num = 0
-    for ss in s:
-        roman.append(ss)
-        check = ''.join(roman[::-1])
-        print check
-        
-        if check in rules:
-            num = rules[check]
-        else:
-            # New number
-            result = result + num
-            roman = [roman[-1]]
-    result = result + num
-    print romanToInt(s[::-1])
