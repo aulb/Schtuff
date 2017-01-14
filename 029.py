@@ -1,7 +1,7 @@
 def divide(dividend, divisor):
 	# Negative integers
 	if divisor == 0:
-		return 2147483647
+		return 0
 
 	divisorp = abs(divisor)
 	dividendp = abs(dividend)
@@ -18,7 +18,7 @@ def divide(dividend, divisor):
 	# If woopsie, go back one
 
 
-# Nice trick from discussion bit division
+# Nice trick from discussion for bit division
     # c,sub=1,divisor;
 
     # while(dividend >= divisor):
