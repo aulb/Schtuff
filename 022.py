@@ -30,4 +30,4 @@ def generateParenthesis(n):
 					curr.append(s1 + s2)
 		# Append after pruning 
 		lookup[_] = f7(curr)
-	return lookup
+	return lookup[n]
