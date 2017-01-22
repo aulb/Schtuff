@@ -1,4 +1,4 @@
-# 꿈만 같아 너란 사람 💯
+# 꿈만 같아 너란 사람 💯💯
 Accepted solutions on lcode~
 
 Strategy:
