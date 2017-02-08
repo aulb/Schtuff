@@ -26,3 +26,6 @@ Strategy:
 |050.py|
 |053.py|
 |150.py|
+
+What do you do when a chapter ends?
+Do you close the book and never read it again?
