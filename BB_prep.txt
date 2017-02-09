@@ -1,0 +1,3 @@
+-- Sorting: Bubble and insertion
+-- Search: Binary search is ok
+-- BFS, DFS
