@@ -48,4 +48,3 @@ if __name__ == '__main__':
 
     print two_sum(nums, target)
     print [0, 5]
-

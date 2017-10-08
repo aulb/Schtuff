@@ -32,6 +32,3 @@ class Solution(object):
         if top_length < len(helper):
         	top_length = len(helper)
        	return top_length
-
-
-

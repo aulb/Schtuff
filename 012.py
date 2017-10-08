@@ -53,4 +53,3 @@ class Solution(object):
         	counter = counter * 10
     
         return ''.join(roman[::-1])
-        
