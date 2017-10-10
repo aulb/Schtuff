@@ -1,0 +1,14 @@
+notes:
+
+# def binaryTreePaths(root):
+#    list_of_paths = []
+#     def aux(node, node_values):
+#         if node == None:
+#             list_of_paths.append("->".join(node_values))
+#         else:
+#             node_values.append(node.val) # str(node.val)
+#             aux(node.left, node_values)
+#             aux(node.right, node_values)
+#     # This won't work, if tree is a single node, get two values
+#     aux(root, [])
+#     return list_of_paths
