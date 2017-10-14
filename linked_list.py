@@ -13,3 +13,15 @@ def reverse(item, tail = None):
 		return item
 	else:
 		return reverse(next, item)
+
+def reverse_iter():
+	pass
+
+def detect_circular():
+	pass
+
+def reverse_middle():
+	pass
+
+def binary_tree_to_linked_list():
+	pass
