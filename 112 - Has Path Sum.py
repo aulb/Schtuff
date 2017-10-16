@@ -17,12 +17,11 @@ def hasPathSum(root, sum):
     :type sum: int
     :rtype: bool
     """
-    if root == None:
+    if not root:
         return False
     
     # Base case root is nothing but theres still sum to do
     remainder = sum - root.val
-    if root.left == None and root.right == None and remainder == 0:
+    if not root.left and not root.right and remainder == 0:
         return True
-    else:
-        return hasPathSum(root.left, remainder) or hasPathSum(root.right, remainder)
+    return self.hasPathSum(root.left, remainder) or self.hasPathSum(root.right, remainder)
