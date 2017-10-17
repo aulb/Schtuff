@@ -7,6 +7,8 @@
 #         self.right = None
 
 class Solution(object):
+	# Counting the whole damn thing
+	# The counting method has constant space TODO
 	def count(self, root):
 		# if at the end
 		if not root: return 0
@@ -18,20 +20,19 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        # Count nodes to the left
-        count = self.count(root.left, 0)
+        # In order traversal would work...
+        count = []
+        self.helper(node, count)
 
-        while root:
-	        # kth smallest element on the left side
-	        if k < count:
-	        	root = root.left
-	        	k += 1
-	        # kth smallest element on the right side
-	        elif k > count:
-	        	root = root.right
-	        	k -= 1
-	        # else this is it
-	        else: 
-	        	return root
+        # Check valid k
+	    if k - 1 < len(count):
+	    	return count[k - 1]
+		# else... error handle	    	
 
-	    return None
+	def inOrderDFS(self, node, count):
+		# Memory is n
+		if not node: return
+
+		self.helper(node.left, count)
+		count.append(node.val) # or node
+		self.helper(node.right, count)
