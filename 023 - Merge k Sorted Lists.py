@@ -36,19 +36,38 @@ class Solution(object):
         """
         # Need a dummy head to track the rest
         head = ListNode(None)
+        pointer_to_head = head
         
         # Initially Clean up any Nones
-        lists = [l for l in lists if l] # Gets rid of all initial Nones
-        heapified_list = self.heapify(lists)
+        heapified_list = self.heapify([node for node in lists if node])
         
         # The 0th element is the minimum, so make head.next that node, and then that value becomes array[0] = array[0].next
         # if the 0th element becomes None, delete it from the list
         while heapified_list != []:
-            head.next = heapified_list[0]
-            heapified_list[0] = heapified_list[0].next
-            if not heapified_list[0]:
+            # advance first element's node to next
+            head.next, heapified_list[0] = heapified_list[0], heapified_list[0].next
+            head = head.next # advance to the next node
+            if not heapified_list[0]: # Check if this is none
                 del heapified_list[0]
             heapified_list = self.heapify(heapified_list)
-
+            
         # Returns none if theres nothing in the list
-        return head.next
+        return pointer_to_head.next
+
+
+"""
+# WITH PRIORITY QUEUE to read...
+from Queue import PriorityQueue
+class Solution(object):
+    def mergeKLists(self, lists):
+        dummy = ListNode(None)
+        curr = dummy
+        q = PriorityQueue()
+        for node in lists:
+            if node: q.put((node.val,node))
+        while q.qsize()>0:
+            curr.next = q.get()[1]
+            curr=curr.next
+            if curr.next: q.put((curr.next.val, curr.next))
+        return dummy.next
+"""
