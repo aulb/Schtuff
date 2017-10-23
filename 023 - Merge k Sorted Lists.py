@@ -4,6 +4,7 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
+# https://leetcode.com/articles/merge-k-sorted-list/
 
 class Solution(object):
     def heapify(self, array):

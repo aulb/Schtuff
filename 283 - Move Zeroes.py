@@ -10,10 +10,15 @@
 # Another without swapping ? stacks? not in place 
 # Pop and put into stack NO NO NO, the solution below is in place
 class Solution(object):
-	def moveZeroes(self, nums):
-		start = 0
-		for i in range(len(nums)):
-			if nums[i] != 0:
-				# Swap with the lagged pointer
-				nums[i], nums[start] = nums[start], nums[i]
-				start += 1
+    def moveZeroes(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: void Do not return anything, modify nums in-place instead.
+        """
+        start = 0
+        for i in range(len(nums)):
+            # Only swap when there is a non zero, increment the "zero" counter every swap
+            # swap with the lagged pointer
+            if nums[i] != 0:
+                nums[i], nums[start] = nums[start], nums[i]
+                start += 1
