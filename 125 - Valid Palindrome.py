@@ -25,6 +25,4 @@ class Solution(object):
                 # Don't forget to advance the pointers
                 lo += 1
                 hi -= 1
-            
-        
         return True
