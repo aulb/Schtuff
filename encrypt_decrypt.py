@@ -35,4 +35,4 @@ def decrypt(encrypted_string):
 	return decrypted
 
 if __name__ == '__main__':
-	print(decrypt(encrypt('a')))
+	print(decrypt(encrypt('curryiscute')))
