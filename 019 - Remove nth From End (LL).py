@@ -13,7 +13,7 @@ class Solution(object):
         :type n: int
         :rtype: ListNode
         """
-        first = slow = head
+        fast = slow = head
         # Look ahead
         for i in range(n):
             fast = fast.next
