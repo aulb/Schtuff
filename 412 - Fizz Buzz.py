@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# PYTHON 2 ALERT
 from fractions import gcd
 
 def lcm(a, b):
@@ -9,27 +8,30 @@ def lcm(a, b):
 def fizzbuzz(numlist, crackle, pop):
 	cracklepop = lcm(crackle, pop)
 	for n in numlist:
+		# Divisible by both crackle and pop
 		if not n % cracklepop:
-			print 'CracklePop'
+			print('CracklePop')
+		# Divisible only by crackle
 		elif not n % crackle:
-			print 'Crackle'
+			print('Crackle')
+		# Divisible only by pop
 		elif not n % pop:
-			print 'Pop'
+			print('Pop')
+		# Not divisible by both crackle and pop
 		else:
-			print n
+			print(n)
 
 if __name__ == '__main__':
 	crackle = 3
 	pop = 5
 	numlist = range(1, 101)
 
-	# I just realized after writing this that 
-	# there is more than lcm and divisibility
-	# properties than cracklepops
+	# I just realized after writing this that there is more to least common multiples and divisibility properties 
 	fizzbuzz(numlist, crackle, pop)
 
 
 """
+This is the solution for leetcode FizzBuzz, which is just a normal fizzbuzz.
 class Solution(object):
     def fizzBuzz(self, n):
         result = []
