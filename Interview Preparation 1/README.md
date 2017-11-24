@@ -1,22 +1,27 @@
 # Miscellaneous Technical Questions
 ### Todo
+- Task scheduler
 - LRU Cache
-- Island in matrix, number of island *
-- Rotate matrix * 
+- Island in matrix, number of island
+- Rotate matrix
 - Longest palindrome
-- Stock price best time to buy & sell
 - Task scheduler
 - Implement hash table
-- Median from data stream
 - Median from two sorted array
+- Median from an unsorted array
 
 ### Done With:
+- Find k smallest value from BST, go over the constant space
+- Largest rectangle from histogram, understanding + 1
+- Stock price best time to buy and sell
+- Median from data stream
+- Stock span
 - First missing positive
-- Power set : OPTIMIZATION NEEDED
+- Power set, OPTIMIZATION NEEDED
 - Word break
 - Linked List sum
-- Search in rotated 
-- Max sum of non adjacent elements 
+- Search in rotated
+- Max sum of non adjacent elements
 - Implement data structure "Map" storing pairs of integers (key, value) and define following member functions in O(1) runtime: void insert(key, value), void delete(key), int get(key), int getRandomKey(). 
 **Answer**: The idea is...
  
@@ -85,7 +90,7 @@ def isValidSudoku(self, board):
 
 7) Design an alarm system for driverless car
 
-8) Design an elevator
+8) Design an elevator **TODO**
 
 9) Given a string A and B, find the smallest substring of A that contains all the characters from B. (implement solution in O(n), keep in mind chars in B can repeat)  
 http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
@@ -93,6 +98,9 @@ http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all
 10) Given a picture of square with a bunch of horizontal and vertical lines in it (lines are not necessarily spanning the full square length, in other words think of a fine grid with many holes in it), design data structure(s) representing the data and a function that returns a number of squares pictured. (actual implementation expected)  
 
 11) How would you design Youtube (need for low latency, robustness against data loss, ...) (no implementation necessary)  
+
+12) String similarities -> DP
+13) correct paranthesis
 # Behaviour
 - Why do you wanna work with...
 - Tell me about a time that you worked on a project in a group setting.

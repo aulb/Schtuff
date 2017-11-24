@@ -1,27 +1,28 @@
 # https://www.youtube.com/watch?v=ZmnqCZp9bBs
-class Solution(object):
+# Follow up: if 0 is permitted
+class Solution:
     def largestRectangleArea(self, heights):
         """
         :type heights: List[int]
         :rtype: int
         """
-        # max_area = 0
-        # # Stack index
-        # stack = []
-        # for index, height in enumerate(heights):
-        #     # Add to stack if height == heights @ top of stack 
-        #     # Or if empty
-        #     if (stack and heights[stack[-1]] <= height) or not stack:
-        #         stack.append(index)
-        #     else:
-        #         # While the height of the element at the top of stack is greater
-        #         # Or we are at the end
-        #         while stack and (heights[stack[-1]] > height or index == len(heights) - 1):
-        #             top = stack.pop()
+        if not heights: return 0
+        index = 0
+        max_area = -1
+        stack = []
+        
+        while index < len(heights):
+            # Everytime I access something I need to make sure I can actually do it
+            while stack and heights[stack[-1]] > heights[index]:
+                top = stack.pop()
+                if stack: max_area = max(max_area, heights[top] * (index - stack[-1] - 1))
+                else: max_area = max(max_area, heights[top] * index)
+            stack.append(index)
+            index += 1
 
-        #             area = heights[top]
-        #             if stack:
-        #                 area = heights[top] * (index - stack[-1] - 1)
-        #             max_area = max(area, max_area)
-
-        # return max_area
+        while stack:
+            top = stack.pop()
+            if stack: max_area = max(max_area, heights[top] * (index - stack[-1] - 1))
+            else: max_area = max(max_area, heights[top] * index)
+            
+        return max_area
