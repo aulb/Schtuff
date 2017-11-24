@@ -1,0 +1,9 @@
+Sharding
+- Sharding techniques: multi column shards, by customer + user_id
+* JSONB as properties. relational databases
+*
+
+SQL Tuning
+
+
+Zookepers
