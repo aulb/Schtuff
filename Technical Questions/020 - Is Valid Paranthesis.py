@@ -43,3 +43,4 @@ class Solution(object):
 # print isValid('([])')
 # print isValid('[')
 # print isValid('()()()()()(){}[]{}')
+# '{(abc)22}[14(xyz)2]' => True

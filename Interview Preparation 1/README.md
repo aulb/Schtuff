@@ -1,3 +1,4 @@
+###### **Important TODO** Set aside a day to go through resume
 # Miscellaneous Technical Questions
 ### Todo
 - Task scheduler
@@ -9,9 +10,15 @@
 - Implement hash table
 - Median from two sorted array
 - Median from an unsorted array
+- Text Justification
+- Search in rotated, **TODO ONE MORE TIME**
+- Exponent/Power function
+- Valid Sudoku
+- Find k smallest value from BST, go over the constant space
+- Leetcode 10
+- Binary search again
 
 ### Done With:
-- Find k smallest value from BST, go over the constant space
 - Largest rectangle from histogram, understanding + 1
 - Stock price best time to buy and sell
 - Median from data stream
@@ -20,7 +27,6 @@
 - Power set, OPTIMIZATION NEEDED
 - Word break
 - Linked List sum
-- Search in rotated
 - Max sum of non adjacent elements
 - Implement data structure "Map" storing pairs of integers (key, value) and define following member functions in O(1) runtime: void insert(key, value), void delete(key), int get(key), int getRandomKey(). 
 **Answer**: The idea is...
@@ -32,6 +38,7 @@
 
 3) Find and return the first duplicate integer in an array in O(n) time and O(1) space. Assume there will always be at least one duplicated integer in the array. 
 4) Write a function that can break a large SMS message string given a length limit per substring. Words must stay together. If a word is longer than the limit, use the word in a new substring and split it as relevant.
+**TODO**
 ```python
 def sms_messages(sms_text_str, limit_int):
     return split_messages_list
@@ -99,9 +106,49 @@ http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all
 
 11) How would you design Youtube (need for low latency, robustness against data loss, ...) (no implementation necessary)  
 
-12) String similarities -> DP
-13) correct paranthesis
+12) String similarities -> DP, edit distance
+
+13) Distance between siblings in trees
+
+14) Max number in a list of numbers... ?
+
+15) Design Uber/Lyft, design nearby drivers (shortest distance): **Video Watched** Need to recap
+
+16) Implement a timer using queue
+
+17) Implement substring
+
+18) You have a dictionary of words. Create a matrix of letters such that each row of the matrix is a word and each column of the matrix is a word. Kind of like a very dense crossword puzzle.  
+
+19) Reverse words in string. Some questions about distributed system.  
+
+20) Search and delete BST
+
+21) Map using BST, get set size
+
+22) Coin change
+
+23) LCA BST
+
+24) Design a spreadsheet application
+
+25) Flatten JSON `{x:1, y:1, z:{a:1,b:2}} flattens to {x:1, y:1, z.a:1, z.b: 2}`
+
+26) Rate limiter for API, web service
+
 # Behaviour
 - Why do you wanna work with...
+- What would you do to improve ...?
+- What would you bring to the team?
 - Tell me about a time that you worked on a project in a group setting.
 - Sketch design of a project you participated in. (on whiteboard)
+- General culture fit question...
+- Whats your biggest failure
+- Describe a difficult engineering challenge you worked on in your current job.
+- Projects...
+- What are purposes of a heap
+- Big endian little endian
+- Talk about former work
+- Pros and cons agile
+- What have you been doing in your current job
+- Whats to stop you from packing up and leaving in four years?
