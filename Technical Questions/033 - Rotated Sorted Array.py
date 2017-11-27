@@ -84,25 +84,25 @@ class Solution(object):
         # Is nums[middle] > target
         # nums[middle] > nums[low]
         if not nums: return -1
-        
+
         low, high = 0, len(nums) - 1
         # len == 1 => low = high = 0, nums[low] == target! 
         while low <= high:
             mid = (high + low) // 2 # low + (high - low) // 2
             if nums[mid] == target: return mid
-            
+
             # Sorted on the right side
             if nums[high] >= nums[mid]:
                 # Check if the target is on the right side
                 # target > nums[mid], target is greater than midpoint 
                 # target <= nums[high], target is between high or equal to high 
-            	if target > nums[mid] and target <= nums[high]:
-        			low = mid + 1
+                if target > nums[mid] and target <= nums[high]:
+                    low = mid + 1
                 else:
                     high = mid - 1
-                    
+
             # Sorted on the left side
-            if nums[mid] >= nums[low]:
+            elif nums[mid] >= nums[low]:
                 # Check if target belong on the left side
                 if nums[mid] > target and target >= nums[low]:
                     high = mid - 1
@@ -110,6 +110,6 @@ class Solution(object):
                     low = mid + 1
 
 
-                    
+
         # Not found
         return -1

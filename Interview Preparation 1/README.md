@@ -1,24 +1,25 @@
 ###### **Important TODO** Set aside a day to go through resume
 # Miscellaneous Technical Questions
 ### Todo
-- Task scheduler
 - LRU Cache
 - Island in matrix, number of island
 - Rotate matrix
 - Longest palindrome
-- Task scheduler
 - Implement hash table
 - Median from two sorted array
 - Median from an unsorted array
 - Text Justification
 - Search in rotated, **TODO ONE MORE TIME**
-- Exponent/Power function
+- Exponent/Power function **TODO ONE MORE TIME**
 - Valid Sudoku
 - Find k smallest value from BST, go over the constant space
 - Leetcode 10
 - Binary search again
+- Smallest element unsorted array
 
 ### Done With:
+- Task scheduler
+- String similarities -> DP, edit distance/levenshtein
 - Largest rectangle from histogram, understanding + 1
 - Stock price best time to buy and sell
 - Median from data stream
@@ -105,8 +106,6 @@ http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all
 10) Given a picture of square with a bunch of horizontal and vertical lines in it (lines are not necessarily spanning the full square length, in other words think of a fine grid with many holes in it), design data structure(s) representing the data and a function that returns a number of squares pictured. (actual implementation expected)  
 
 11) How would you design Youtube (need for low latency, robustness against data loss, ...) (no implementation necessary)  
-
-12) String similarities -> DP, edit distance
 
 13) Distance between siblings in trees
 
