@@ -19,6 +19,6 @@ class Solution(object):
         for i in range(len(nums)):
             # Only swap when there is a non zero, increment the "zero" counter every swap
             # swap with the lagged pointer
-            if nums[i] != 0:
+            if nums[i]:
                 nums[i], nums[start] = nums[start], nums[i]
                 start += 1

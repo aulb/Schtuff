@@ -2,7 +2,16 @@ TODO:
 - Fill bucket
 - median of stream
 - merge intervals
-
+- wildcard matching
+- study permutations 46 :: recursive backtracking
+- construct binary tree from inorder and preorder
+- queue using stack
+- graph traversal, keep track of visited nodes
+- unique paths
+- convert 123 to one two three
+- rotate image
+- three sum
+- bipartite graph
 
 Done:
 - http://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
