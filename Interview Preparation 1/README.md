@@ -1,23 +1,42 @@
 ###### **Important TODO** Set aside a day to go through resume
+1) elevators + parking lot
+2) system designs
+    - youtube
+    - uber
+3) behavioural
+4) 1million writes per second
+5) replication techniques
+6) BFS DFS
+8) LCA BST
+10) Minesweeper tings
+
+
+### Abandoned
+7) Text Justification
+
 # Miscellaneous Technical Questions
 ### Todo
-- LRU Cache
 - Island in matrix, number of island
 - Rotate matrix
 - Longest palindrome
 - Implement hash table
 - Median from two sorted array
 - Median from an unsorted array
-- Text Justification
-- Search in rotated, **TODO ONE MORE TIME**
-- Exponent/Power function **TODO ONE MORE TIME**
 - Valid Sudoku
 - Find k smallest value from BST, go over the constant space
 - Leetcode 10
 - Binary search again
 - Smallest element unsorted array
+- SQRT **Look over and code it later**
 
-### Done With:
+### Done With: 
+- Longest Palindrome
+- Sudoku, check valid numbers -> just have a separate function to validate if the numbers are valid or not
+- "MIN SUBSTRING"
+- LRU Cache
+- Coin change
+- Exponent/Power function
+- Search in rotated **BRIEFLY LOOK AGAIN LATER**
 - Task scheduler
 - String similarities -> DP, edit distance/levenshtein
 - Largest rectangle from histogram, understanding + 1
@@ -31,13 +50,13 @@
 - Max sum of non adjacent elements
 - Implement data structure "Map" storing pairs of integers (key, value) and define following member functions in O(1) runtime: void insert(key, value), void delete(key), int get(key), int getRandomKey(). 
 **Answer**: The idea is...
+- Find and return the first duplicate integer in an array in O(n) time and O(1) space. Assume there will always be at least one duplicated integer in the array. 
  
 # Technical Questions
 1) Given the travel time of each customer. Find the driver with the longest chain of trips, which means there is always at least one person on the car.  
 
 2) Assume you have some labor for labeling training data, what data will you collect and what model will you use to building a self-driving car system.  
 
-3) Find and return the first duplicate integer in an array in O(n) time and O(1) space. Assume there will always be at least one duplicated integer in the array. 
 4) Write a function that can break a large SMS message string given a length limit per substring. Words must stay together. If a word is longer than the limit, use the word in a new substring and split it as relevant.
 **TODO**
 ```python
@@ -94,8 +113,6 @@ def isValidSudoku(self, board):
     return True;
 ```
 
-6) (Whiteboard question, written in C): You have a homogeneous fixed-size data structure ("arena") to house structs that should do X (vague description). Define the struct, a function that stores it in the arena, and a function that retrieves it from the arena.  
-
 7) Design an alarm system for driverless car
 
 8) Design an elevator **TODO**
@@ -115,7 +132,7 @@ http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all
 
 16) Implement a timer using queue
 
-17) Implement substring
+17) Implement substring: 
 
 18) You have a dictionary of words. Create a matrix of letters such that each row of the matrix is a word and each column of the matrix is a word. Kind of like a very dense crossword puzzle.  
 
@@ -125,29 +142,10 @@ http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all
 
 21) Map using BST, get set size
 
-22) Coin change
-
 23) LCA BST
 
 24) Design a spreadsheet application
 
 25) Flatten JSON `{x:1, y:1, z:{a:1,b:2}} flattens to {x:1, y:1, z.a:1, z.b: 2}`
 
-26) Rate limiter for API, web service
-
-# Behaviour
-- Why do you wanna work with...
-- What would you do to improve ...?
-- What would you bring to the team?
-- Tell me about a time that you worked on a project in a group setting.
-- Sketch design of a project you participated in. (on whiteboard)
-- General culture fit question...
-- Whats your biggest failure
-- Describe a difficult engineering challenge you worked on in your current job.
-- Projects...
-- What are purposes of a heap
-- Big endian little endian
-- Talk about former work
-- Pros and cons agile
-- What have you been doing in your current job
-- Whats to stop you from packing up and leaving in four years?
+26) Rate limiter for API, web service **Stripe Engineering blog read**
