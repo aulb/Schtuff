@@ -12,8 +12,27 @@ TODO:
 - rotate image
 - three sum
 - bipartite graph
+- given a list of words and prefix string, words with that prefix
+- word search
+- spiral matrix
+- shortest path from one to the other
+- restore IP addresses
+- encircle
+- anagrams
+- overlapping intervals
+- square root
+- valid sudoku
+- maximal square
 
 Done:
+"data structures": (LRU, get random, median/max/mode...)
+- LRU
+- maximal rectangle
+- letters in phone number
+- minimum window substring
+- deep iterator
+- Find peak element
+- zero out matrices
 - http://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
 ```
 def pathSum(self, root, sum):
