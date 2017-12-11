@@ -42,10 +42,13 @@ class MedianFinder:
             # push to max heap
             heappush(max_heap, -lowest_from_min_heap)
         """
+        heappush(max_heap, -heappushpop(min_heap, num))
+        if len(max_heap) > len(min_heap):
+            heappush(min_heap, -heappop(max_heap))
 
-        heappush(min_heap, -heappushpop(max_heap, -num))
-        if len(min_heap) > len(max_heap):
-            heappush(max_heap, -heappop(min_heap))
+        # heappush(min_heap, -heappushpop(max_heap, -num))
+        # if len(min_heap) > len(max_heap):
+        #     heappush(max_heap, -heappop(min_heap))
         
 
     def findMedian(self):
@@ -54,8 +57,10 @@ class MedianFinder:
         """
         min_heap, max_heap = self.heaps
         if not max_heap: return 0.0
-        if len(max_heap) > len(min_heap): return float(-max_heap[0])
+        if len(min_heap) > len(max_heap): return float(min_heap[0])
         return (-max_heap[0] + min_heap[0]) / 2
+        # if len(max_heap) > len(min_heap): return float(-max_heap[0])
+        # return (-max_heap[0] + min_heap[0]) / 2
 
 # import heapq
 # class MedianFinder:
