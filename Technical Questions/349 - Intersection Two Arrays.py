@@ -7,14 +7,13 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         """
-        d1 = {}
-        d2 = {}
-        result = []
-        for i in nums1:
-            d1[i] = True
-        for i in nums2:
-            # Same values...
-            if d1.get(i, False) and not d2.get(i, False):
-                result.append(i)
-            d2[i] = True
-        return result
+        if not (nums1 and nums2): return []
+        
+        # nums1 and nums2 not guaranteed sorted arrays
+        result = set()
+        lookup = set(nums1)
+        
+        for num in nums2:
+            if num in lookup: result.add(num)
+                
+        return list(result)
